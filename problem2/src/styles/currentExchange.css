@@ -1,0 +1,116 @@
+.currency-exchange-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .currency-select,
+  .amount-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .currency-select:focus,
+  .amount-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  .swap-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+    color: #007bff;
+    transition: transform 0.3s ease;
+  }
+  
+  .swap-icon {
+    font-size: 24px;
+  }
+  
+  .convert-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .convert-button:hover {
+    background: #0056b3;
+  }
+  
+  .convert-icon {
+    margin-right: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9f5ff;
+    border-radius: 8px;
+    color: #007bff;
+  }
+  
+  .result h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #007bff;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+  }
